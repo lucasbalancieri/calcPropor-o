@@ -1,0 +1,108 @@
+body {
+    background-color: #f7f2f2; /* Cor de fundo levemente avermelhada */
+    color: #333; /* Cor do texto principal */
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #e74c3c; /* Cor de fundo do cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff; /* Cor do texto do cabeçalho */
+}
+
+section {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+}
+
+section div {
+    background-color: #fff; /* Cor de fundo da área de entrada de dados */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    background-color: #e74c3c; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #c0392b; /* Cor de fundo do botão ao passar o mouse*/
+}
+
+div#resultado {
+    display: none;
+    /*
+    height: 328px;
+    width: 242.594px;
+    */
+    width: 335px;
+    height: 400px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo da área de resultado 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave 
+    }
+
+#resultado table {
+    width: 100%; /* Ajuste a largura da tabela conforme necessário */
+    border: 1px solid #ddd; /* Adicione uma borda à tabela */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin-top: 20px; /* Margem superior para separar do conteúdo acima */
+    }
+
+#resultado td {
+    border: 1px solid #ddd; /* Adicione bordas às células */
+    border-radius: 4px;
+    padding: 8px; /* Adicione preenchimento interno para espaçamento */
+    }
+
+#resultado td.fixo {
+    font-weight: bold; /* Texto em negrito para as células com ID fixo */
+    }
+
+#resultado td.out {
+    text-align: right; /* Alinhe o texto à direita nas células com ID out */
+    }
+
+#resultado td#prct-tubos{
+    color: white;
+    font-weight: bold;
+}
+
+#resultado td#prct-tubos-100{
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e74c3c; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    /*Manter o footer no fim da página*/
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

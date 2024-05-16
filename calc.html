@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc Tubo x Conexoes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calc Tubo x Conexoes</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Total de Tubos: <input type="number" name="tubos" id="tubos" placeholder="R$"></p>
+            <p>Total de Tubos de 100: <input type="number" name="tubos-de-100" id="tubos-de-100" placeholder="R$"></p>
+            <p>Não Tubos: <input type="number" name="nao-tubos" id="nao-tubos" placeholder="R$"></p>
+            <p>CPVC: <input type="number" name="cpvc" id="cpvc" placeholder="R$"></p>
+            <p><input type="button" value="Calcular" onclick="calcular()">
+                <input type="button" value="Limpar" onclick="limpar()">
+            </p>
+        </div>
+
+        <div id="resultado"></div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
